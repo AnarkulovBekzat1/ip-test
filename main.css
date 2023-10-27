@@ -9,3 +9,12 @@ body {
    #rightcol { /* Правая колонка */
     margin-left: 220px; /* Отступ слева */
    }
+
+  @media (max-width:750px) {
+body{
+	margin-left: 30px;
+	margin-right: 30px;
+	margin: 0;
+	
+}
+  }
